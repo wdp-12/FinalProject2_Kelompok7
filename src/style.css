@@ -89,6 +89,73 @@ ul .nav-item .nav-link:hover{
     font-size: 22px;
     line-height: 36px;
 }
+/* product features 1 */
+.container {
+    display: flex;
+}
+
+.right-section {
+    flex: 1;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+    margin-top: 60px;
+    border-radius: 60px;
+    height: 500px; 
+    width: 100%;
+    margin-left: 80px;
+    color: #234CAD;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #F2F6FF;
+    margin-top: 60px;
+    border-radius: 60px;
+    height: 500px; 
+    width: 100%;
+    margin-left: 80px;
+    
+}
+
+.right-section h2,.right-section p{
+    color: #234CAD;
+}
+.right-section h2{
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+}
+.right-section p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.right-section h2:hover{
+    font-weight: bolder; 
+    transition: color 0.3s ease;
+}
+
+.btn2{
+    width: 200px;
+    height: 65px;
+    flex-shrink: 0;
+    border: 2px solid #234CAD;
+    color: #234CAD;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 22px;
+    line-height: 36px;
+}
+/* End product features 1*/
 
 #duaItems .row .col-md-6 h3{
     color: #234CAD;
