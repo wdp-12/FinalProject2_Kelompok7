@@ -145,7 +145,7 @@ ul .nav-item .nav-link:hover{
 
 .right-section {
     flex: 1;
-    padding: 50px;
+    padding: 80px;
     box-sizing: border-box;
     background-color: #fff;
     color: #333;
@@ -153,15 +153,17 @@ ul .nav-item .nav-link:hover{
     border-radius: 60px;
     height: 500px; 
     width: 100%;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     color: #234CAD;
 }
 
 .left-section {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    position: relative;
+    padding-top: 43px;
+    margin-left: 30px;
+    color: #234CAD;
     padding: 20px;
     box-sizing: border-box;
     background-color: #F2F6FF;
@@ -170,7 +172,31 @@ ul .nav-item .nav-link:hover{
     height: 500px; 
     width: 100%;
     margin-left: 80px;
-    
+
+}
+
+.left-section .row-1{
+    position: absolute;
+    width: 380px;
+    height: 60px;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+
+.left-section .row-2{
+    position: absolute;
+    width: 380px;
+    height: 60px;
+    margin-top: 190px;
+    margin-right: 20px;
+}
+
+.left-section .row-3{
+    position: absolute;
+    width: 380px;
+    height: 60px;
+    margin-top: 310px;
+    margin-right: 20px;
 }
 
 .right-section h2,.right-section p{
