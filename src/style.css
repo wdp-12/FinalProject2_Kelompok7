@@ -55,119 +55,60 @@ ul .nav-item .nav-link:hover{
     width: 100%;
 }
 
-#banner .banner-left p,#banner .banner-left h2{
+.banner-left p,.banner-left h2{
     color: #234CAD;
 }
-#banner .banner-left h2{
+.banner-left h2{
     letter-spacing: 1px;
     font-weight: 500;
     font-size: 48px;
     line-height: 56px;
 }
-#banner .banner-left p{
+.banner-left p{
     font-size: 16px;
     margin-bottom: 40px;
 }
 
-#banner .banner-left h2:hover{
-    font-weight: bolder; 
+.banner-left h2:hover{
+    font-weight: bold; 
     transition: color 0.3s ease;
 }
 
-#banner .banner-right{
+.banner-right{
     position: relative;
     padding-top: 43px;
     margin-left: 30px;
     
 }
-#banner .banner-right .banner-row{
+.banner-right .banner-row{
     color: #234CAD;
     background-color: #FFFFFF;
     border-radius: 20px;
 }
-#banner .banner-right .row-1{
+.banner-right .row-1{
     position: absolute;
     margin-top: -260px;
-    left: -100px;
-    width: 75px;
-    height: 75px;
+    left: -110px;
 }
 
-#banner .banner-right .row-2{
+.banner-right .row-2{
     position: absolute;
     margin-top: -160px;
-    left: -100px;
-    width: 290px;
-    height: 80px;
+    left: -110px;
 }
 
-#banner .banner-right .row-3{
+.banner-right .row-3{
     position: absolute;
     margin-top: -60px;
-    left: -100px;
-    width: 246px;
-    height: 140px;
-    flex-shrink: 0;
+    left: -110px;
 }
 
-.circles .circle-1,
-.circles .circle-2,
-.circles .circle-3,
-.circles .circle-4{
-    background-color: #F2F6FF;
-    width: 40px;
-    height: 40px;
-    flex-shrink: 0;
-    border-radius: 50%;
-    font-size: 10px;
-    margin-top: -10px;
-    margin-left: -8px;
-    border: 2px solid #fff;
-}
-.schedule-box .text{
-    margin-left: 15px !important;
-}
-.schedule-box .text small{
-    font-size: 12px;
-}
-#banner .banner-right .row-4{
+.banner-right .row-4{
     position: absolute;
     top: 150px;
-    left: -100px;
-    width: 330px;
-    height: 100px;
-    flex-shrink: 0;
+    left: -110px;
 }
 
-.initial-container{
-    background-color: #F2F6FF;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    position: relative;
-    text-align: center;
-    margin: 20px 20px;
-}
-.initial{
-    display: inline-block;
-    font-size: 24px;
-}
-p.position-absolute {
-    position: absolute;
-    top: -2px; 
-    right: 0;
-    font-size: 6px; 
-    font-weight: 600;
-    margin: 0;
-}
-.center-chat-box small{
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 21px;
-}
-.end-chat-box {
-    font-size: 10px !important;
-}
 .banner-sebrang {
     position: relative;
     padding-top: 43px;
@@ -178,58 +119,24 @@ p.position-absolute {
     position: absolute;
     margin-top: -280px;
     left:210px;
-    width: 130px;
-    height: 160px;
-    flex-shrink: 0;
-    border-radius: 25px;
-    background: #FFF;
 }
-/* Banner Right Row 2 */
+
 .banner-sebrang .row-2 {
     position: absolute;
     margin-top: -100px;
     left: 155px;
-    width: 330px;
-    height: 90px;
-    flex-shrink: 0;
-    border-radius: 20px;
-    background: #FFF;
 }
 
-/* Banner Right Row 3 */
 .banner-sebrang .row-3 {
     position: absolute;
     top: 55px;
     left: 250px;
-    width: 350px;
-    height: 100px;
-    flex-shrink: 0;
-    border-radius: 25px;
-    background: #FFF;
 }
 
-/* Banner Right Row 4 */
 .banner-sebrang .row-4 {
     position: absolute;
     top: 220px;
     left: 220px;
-    width: 75px;
-    height: 75px;
-    flex-shrink: 0;
-    border-radius: 20px;
-    background: #FFF;
-}
-.btn2{
-    width: 200px;
-    height: 65px;
-    flex-shrink: 0;
-    border: 2px solid #234CAD;
-    color: #234CAD;
-    font-weight: 500;
-    border-radius: 50px;
-    background-color: transparent;
-    font-size: 22px;
-    line-height: 36px;
 }
 /* product features 1 */
 .container {

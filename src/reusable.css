@@ -1,0 +1,121 @@
+.btn2{
+    width: 200px;
+    height: 65px;
+    flex-shrink: 0;
+    border: 2px solid #234CAD;
+    color: #234CAD;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.upload-box-with-text {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 90px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.small-box {
+    display: flex;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.chat-box {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 100px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.chat-box .initial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    width: 60px;
+    height: 60px;
+    background-color: #F2F6FF;
+}
+
+.chat-box .initial-container p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    height: 16px;
+    width: 16px;
+    font-weight: 700;
+    font-size: 6px;
+    line-height: 8px;
+    color: white !important;
+    background-color: #234CAD;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+.chat-box .center-chat-box {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.chat-box .center-chat-box small {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 21px;
+}
+
+.chat-box .end-chat-box {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.schedule-box {
+    width: 256px;
+    height: 140px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.circles .circle-1,
+.circles .circle-2,
+.circles .circle-3,
+.circles .circle-4{
+    background-color: #F2F6FF;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-left: -8px;
+    border: 2px solid #fff;
+}
+.schedule-box .text{
+    margin-left: 15px !important;
+}
+.schedule-box .text small{
+    font-size: 12px;
+}
+
+.upload-box-without-text {
+    width: 130px;
+    height: 160px;
+    border-radius: 25px;
+    background-color: white;
+}
