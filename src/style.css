@@ -168,7 +168,57 @@ p.position-absolute {
 .end-chat-box {
     font-size: 10px !important;
 }
+.banner-sebrang {
+    position: relative;
+    padding-top: 43px;
+    margin-left: 30px;
+    color: #234CAD;
+}
+.banner-sebrang .row-1{
+    position: absolute;
+    margin-top: -280px;
+    left:210px;
+    width: 130px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFF;
+}
+/* Banner Right Row 2 */
+.banner-sebrang .row-2 {
+    position: absolute;
+    margin-top: -100px;
+    left: 155px;
+    width: 330px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+}
 
+/* Banner Right Row 3 */
+.banner-sebrang .row-3 {
+    position: absolute;
+    top: 55px;
+    left: 250px;
+    width: 350px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFF;
+}
+
+/* Banner Right Row 4 */
+.banner-sebrang .row-4 {
+    position: absolute;
+    top: 220px;
+    left: 220px;
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+}
 .btn2{
     width: 200px;
     height: 65px;
