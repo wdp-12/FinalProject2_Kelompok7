@@ -9,7 +9,6 @@
 ul .nav-item .nav-link{
     margin-right: 10px;
     margin-left: 20px;
-    font-family: 'Nunito Sans', sans-serif;;
     font-size: 18px;
     color: #234CAD;
 }
@@ -48,17 +47,14 @@ ul .nav-item .nav-link:hover{
     background-color: #234CAD;
 }
 
-#banner{
-    margin-top: 20px;
-    display: flex;
-    width: 1200px;
-    height: 611px;
-    padding: 0px 50px 25px 0px;
-    align-items: center;
-    flex-shrink: 0;
+.banner {
+    margin-top: 60px;
     background-color: #F2F6FF;
     border-radius: 60px;
+    height: 500px; 
+    width: 100%;
 }
+
 #banner .row .col-md-6 {
     margin-left: 80px;
 }
@@ -67,8 +63,10 @@ ul .nav-item .nav-link:hover{
     color: #234CAD;
 }
 #banner .row .col-md-6 h2{
+    letter-spacing: 1px;
     font-weight: 500;
     font-size: 48px;
+    line-height: 56px;
 }
 #banner .row .col-md-6 p{
     font-size: 16px;
@@ -76,23 +74,113 @@ ul .nav-item .nav-link:hover{
 }
 
 #banner .row .col-md-6 h2:hover{
-        font-weight: bolder; 
-        transition: color 0.3s ease;
+    font-weight: bolder; 
+    transition: color 0.3s ease;
 }
 .btn2{
-    display: flex;
     width: 200px;
     height: 65px;
-    justify-content: center;
-    align-items: center;
     flex-shrink: 0;
     border: 2px solid #234CAD;
     color: #234CAD;
     font-weight: 500;
     border-radius: 50px;
-    background-color: #F2F6FF;
+    background-color: transparent;
     font-size: 22px;
+    line-height: 36px;
 }
+/* product features 1 */
+.container {
+    display: flex;
+}
+
+.right-section {
+    flex: 1;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+    margin-top: 60px;
+    border-radius: 60px;
+    height: 500px; 
+    width: 100%;
+    margin-left: 80px;
+    color: #234CAD;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #F2F6FF;
+    margin-top: 60px;
+    border-radius: 60px;
+    height: 500px; 
+    width: 100%;
+    margin-left: 80px;
+    
+}
+
+.right-section h2,.right-section p{
+    color: #234CAD;
+}
+.right-section h2{
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+}
+.right-section p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.right-section h2:hover{
+    font-weight: bolder; 
+    transition: color 0.3s ease;
+}
+
+.btn2{
+    width: 200px;
+    height: 65px;
+    flex-shrink: 0;
+    border: 2px solid #234CAD;
+    color: #234CAD;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 22px;
+    line-height: 36px;
+}
+/* End product features 1*/
+
+/* Text Center */
+.content {
+    /* align-items: center; */
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 60px;
+    height: 500px; 
+    width: 100%;
+    color: #234CAD;
+}
+.content h2 {
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.content p {
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+/* End */
 
 #duaItems .row .col-md-6 h3{
     color: #234CAD;
