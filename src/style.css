@@ -51,32 +51,124 @@ ul .nav-item .nav-link:hover{
     margin-top: 60px;
     background-color: #F2F6FF;
     border-radius: 60px;
-    height: 500px; 
+    height: 600px; 
     width: 100%;
 }
 
-#banner .row .col-md-6 {
-    margin-left: 80px;
-}
-
-#banner .row .col-md-6 h2,.row .col-md-6 p{
+#banner .banner-left p,#banner .banner-left h2{
     color: #234CAD;
 }
-#banner .row .col-md-6 h2{
+#banner .banner-left h2{
     letter-spacing: 1px;
     font-weight: 500;
     font-size: 48px;
     line-height: 56px;
 }
-#banner .row .col-md-6 p{
+#banner .banner-left p{
     font-size: 16px;
     margin-bottom: 40px;
 }
 
-#banner .row .col-md-6 h2:hover{
+#banner .banner-left h2:hover{
     font-weight: bolder; 
     transition: color 0.3s ease;
 }
+
+#banner .banner-right{
+    position: relative;
+    padding-top: 43px;
+    margin-left: 30px;
+    
+}
+#banner .banner-right .banner-row{
+    color: #234CAD;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+#banner .banner-right .row-1{
+    position: absolute;
+    margin-top: -260px;
+    left: -100px;
+    width: 75px;
+    height: 75px;
+}
+
+#banner .banner-right .row-2{
+    position: absolute;
+    margin-top: -160px;
+    left: -100px;
+    width: 290px;
+    height: 80px;
+}
+
+#banner .banner-right .row-3{
+    position: absolute;
+    margin-top: -60px;
+    left: -100px;
+    width: 246px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+.circles .circle-1,
+.circles .circle-2,
+.circles .circle-3,
+.circles .circle-4{
+    background-color: #F2F6FF;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-left: -8px;
+    border: 2px solid #fff;
+}
+.schedule-box .text{
+    margin-left: 15px !important;
+}
+.schedule-box .text small{
+    font-size: 12px;
+}
+#banner .banner-right .row-4{
+    position: absolute;
+    top: 150px;
+    left: -100px;
+    width: 330px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.initial-container{
+    background-color: #F2F6FF;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    margin: 20px 20px;
+}
+.initial{
+    display: inline-block;
+    font-size: 24px;
+}
+p.position-absolute {
+    position: absolute;
+    top: -2px; 
+    right: 0;
+    font-size: 6px; 
+    font-weight: 600;
+    margin: 0;
+}
+.center-chat-box small{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.end-chat-box {
+    font-size: 10px !important;
+}
+
 .btn2{
     width: 200px;
     height: 65px;
