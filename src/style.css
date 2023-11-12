@@ -454,10 +454,32 @@ ul .nav-item .nav-link:hover {
 .footer {
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 500px;
+    margin-right: 500px;
     color: #234CAD;
 }
+
+.footer .row .col-3{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.startup{
+    padding: 2px;
+}
+
+.Product{
+    padding: 2px;
+}
+
+.About{
+    padding: 2px;
+}
+
+.Support{
+    padding: 2px;
+}
+
 
 .col-3 h4 {
     margin-bottom: 20px;
