@@ -292,7 +292,76 @@ ul .nav-item .nav-link:hover {
 }
 
 /* End */
+.schedule-container{
+    width: 100%;
+    height: 100%;
+    background: #F2F6FF;
+    border-radius: 60px;
+    overflow: hidden;
+}
+.about-section .component{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F2F6FF;
+    border-radius: 60px;
+    padding-bottom: 1em;
+}
+.grid {
+    color: #234CAD;
+}
+@media only screen and (min-width: 992px) {
+    .about-section .component .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px 20px 0px 20px;
+    }
 
+    .about-section .component .grid-container .grid {
+        padding: 10px;
+    }
+
+    .about-section {
+        width: 545px;
+        height: 495px;
+    }
+
+    .about-section .component {
+        width: 627px;
+        height: 555px;
+        top: 60px;
+        left: 50px;
+        position: absolute;
+    }
+
+    .about-section .schedule-container {
+        width: 100%;
+        height: 100%;
+        background: #F2F6FF;
+        position: relative;
+        border-radius: 60px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about-section {
+        width: 100%;
+    }
+
+    .about-section .component {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #F2F6FF;
+        border-radius: 60px;
+        padding-bottom: 1em;
+    }
+
+}
 #duaItems .row .col-md-6 h3 {
     color: #234CAD;
     font-size: 30px;
