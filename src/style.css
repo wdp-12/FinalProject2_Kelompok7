@@ -59,6 +59,15 @@ ul .nav-item .nav-link:hover {
     width: 100%;
 }
 
+.product2{
+    transform: scale(0.8);
+}
+
+.product3{
+    margin-top: 40px;
+    transform: scale(0.6);
+}
+
 .banner-left p,
 .banner-left h2 {
     color: #234CAD;
