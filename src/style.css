@@ -164,7 +164,6 @@ ul .nav-item .nav-link:hover {
     border-radius: 60px;
     height: 500px;
     width: 100%;
-    /* margin-left: 80px; */
     color: #234CAD;
 }
 
@@ -249,10 +248,8 @@ ul .nav-item .nav-link:hover {
 /* Text Center */
 .content {
     text-align: center;
-    padding: 20px;
     margin-top: 100px;
     border-radius: 60px;
-    /* height: 500px;  */
     width: 100%;
     color: #234CAD;
 }
@@ -274,26 +271,33 @@ ul .nav-item .nav-link:hover {
 
 /* Features 2 */
 .features2 {
-    /* margin-top: 60px; */
+    display: flex;
     background-color: #F2F6FF;
     border-radius: 60px;
     height: 575px;
     width: 100%;
     color:#234CAD; 
-    /* margin-top: 50px; */
 }
-/* .features2-left {
-    width: 300px;
-} */
+.features2-left {
+    margin: 100px;
+    margin-right: 0;
+}
+
 .features2-left .row-1 {
-    margin-top: 30px;
+    margin-top: 80px;
 }
 .features2-left .row-2 {
     margin-top: 20px;
+    text-align: right;
 }
+
 .features2-center {
+    display: flex;
+    flex: 1;
+    justify-content: end;
     position: relative;
-    margin-left: 30px;
+    margin-left: 20px;
+    /* margin-top: 35px; */
 }
 
 .features2-center .row-1 {
@@ -301,39 +305,27 @@ ul .nav-item .nav-link:hover {
 }
 .features2-center .row-2 {
     margin-top: 30px;
+    padding-left: 30px;
 }
-.features2-center .row-3 {
+
+.features2-center2 {
+    display: flex;
+    flex: 1;
+    margin-left: 20px;
+}
+.features2-center2 .row-1 {
+    margin-top: 30px;
+}
+.features2-center2 .row-2 {
     margin-top: 30px;
 }
 
-.features2-center .row-4 {
-    margin-top: 30px;
+.features2-center3 {
+    margin-left: 20px;
 }
-
-/* .features2 .small-box {
-    margin-top: 50px;
-    margin-left: -180px;
+.features2-center4 {
+    margin-left: 20px;
 }
-
-.features2 .schedule-box {
-    margin-top: 20px;
-} */
-
-/* .features2 .row-3 .chat-box {
-    margin-top: 20px;
-    margin-left: 60px; 
-} */
-
-/* .features2 .chat-box {
-    margin-top: 10px;
-    margin-left: 100px;
-} */
-
-/* .features2 .row1 {
-    margin-top: 20px;
-    margin-left: -180px;
-} */
-
 /* End */
 
 .schedule-container{
