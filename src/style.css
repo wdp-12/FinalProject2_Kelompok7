@@ -88,11 +88,6 @@ ul .nav-item .nav-link:hover {
     margin-bottom: 40px;
 }
 
-.banner-left h2:hover {
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
 .banner-right {
     position: relative;
     padding-top: 43px;
@@ -360,56 +355,7 @@ ul .nav-item .nav-link:hover {
 .grid {
     color: #234CAD;
 }
-@media only screen and (min-width: 992px) {
-    .about-section .component .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 0px 20px 0px 20px;
-    }
 
-    .about-section .component .grid-container .grid {
-        padding: 10px;
-    }
-
-    .about-section {
-        width: 545px;
-        height: 495px;
-    }
-
-    .about-section .component {
-        width: 627px;
-        height: 555px;
-        top: 60px;
-        left: 50px;
-        position: absolute;
-    }
-
-    .about-section .schedule-container {
-        width: 100%;
-        height: 100%;
-        background: #F2F6FF;
-        position: relative;
-        border-radius: 60px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .about-section {
-        width: 100%;
-    }
-
-    .about-section .component {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: #F2F6FF;
-        border-radius: 60px;
-        padding-bottom: 1em;
-    }
-
-}
 #duaItems .row .col-md-6 h3 {
     color: #234CAD;
     font-size: 30px;
@@ -425,11 +371,6 @@ ul .nav-item .nav-link:hover {
     line-height: 36px;
 }
 
-.animate-h3 {
-    opacity: 0;
-    animation: fade-in 1s ease-in-out forwards;
-}
-
 .scroll-top-button {
     display: none;
     position: fixed;
@@ -443,16 +384,6 @@ ul .nav-item .nav-link:hover {
     cursor: pointer;
     font-size: 24px;
     padding: 10px 15px;
-}
-
-@keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
 }
 
 .contentcard {
@@ -481,12 +412,15 @@ ul .nav-item .nav-link:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.col-sm-4 .card{
+    background-color: #F2F6FF;
     border: none;
     border-radius: 60px;
     transition: all 0.5s;
     animation: slideUp 2.0s;
-}
-
+} 
 .card-body p {
     font-size: 20px;
     margin-bottom: 20px;
@@ -503,9 +437,12 @@ ul .nav-item .nav-link:hover {
     border-radius: 60px;
     border: 1px solid #234CAD;
     outline: 1px solid #234CAD;
-    background-color: #F2F6FF;
+    background-color: #fff;
     color: #234CAD;
     padding: 0;
+    transform: translate(0, -25px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.5s ease;
 }
 
 #learnMore {
@@ -612,4 +549,133 @@ ul .nav-item .nav-link:hover {
     text-decoration: none;
     color: #234CAD;
     display: flex;
+}
+
+/*animasi*/
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.animate-h3 {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.btn2 {
+    animation: slideInRight 1s ease-in-out;
+}
+/* Sembunyikan semua elemen secara default */
+.banner-left .banner-row {
+    opacity: 0;
+    transform: translateY(30px) rotate(-10deg);
+}
+
+.banner-left .banner-row {
+    animation: slideAndRotate 1s ease-in-out forwards;
+}
+
+@keyframes slideAndRotate {
+    to {
+        opacity: 1;
+        transform: translateY(0) rotate(0);
+    }
+}
+
+.product2, .product3 ,.product1{
+    opacity: 0;
+}
+
+.product3 {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.product2 {
+    animation: fadeIn 1s ease-in-out 1s forwards;
+}
+
+.product1 {
+    animation: fadeIn 1s ease-in-out 2s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+ /*Media screen*/
+@media only screen and (min-width: 992px) {
+    .about-section .component .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px 20px 0px 20px;
+    }
+
+    .about-section .component .grid-container .grid {
+        padding: 10px;
+    }
+
+    .about-section {
+        width: 545px;
+        height: 495px;
+    }
+
+    .about-section .component {
+        width: 627px;
+        height: 555px;
+        top: 60px;
+        left: 50px;
+        position: absolute;
+    }
+
+    .about-section .schedule-container {
+        width: 100%;
+        height: 100%;
+        background: #F2F6FF;
+        position: relative;
+        border-radius: 60px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about-section {
+        width: 100%;
+    }
+
+    .about-section .component {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #F2F6FF;
+        border-radius: 60px;
+        padding-bottom: 1em;
+    }
+
 }
